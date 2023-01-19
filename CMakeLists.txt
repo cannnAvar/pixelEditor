@@ -7,10 +7,12 @@ set(PROJECT_INCLUDE_DIR ${PROJECT_DIR}/include)
 
 set(PROJECT_SOURCE_FILES 
         ${PROJECT_SOURCE_DIR}/main.cpp
+        ${PROJECT_SOURCE_DIR}/canvas.cpp
         ${PROJECT_SOURCE_DIR}/kutuphane.cpp)
         
 set(PROJECT_INCLUDE_FILES 
-                ${PROJECT_INCLUDE_DIR}/kutuphane.cpp)
+                ${PROJECT_INCLUDE_DIR}/canvas.h
+                ${PROJECT_INCLUDE_DIR}/kutuphane.h)
 
 include_directories(${PROJECT_INCLUDE_DIR} ${PROJECT_LIB_INCLUDES})
 
