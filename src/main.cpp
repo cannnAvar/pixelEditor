@@ -1,7 +1,8 @@
 #include <iostream>
+#include "kutuphane.h"
 
-int main()
+int main(int, char**)
 {
-    std::cout << "hiiiiiiiiiiiiiiii\n";
+    std::cout << topla(10, 10) << std::endl;
     return 0;
 }
